@@ -1,0 +1,56 @@
+body *{
+    font-family:'Roboto';
+}
+#input-nota{
+    width: 250px;
+    height: 70px;
+    border-radius: 8px;
+    border:2px solid #4F4F4F;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bt-crear{
+    margin-top: 8px;
+    border:none;
+    background-color:#4F4F4F;
+    color:white;
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.nota-content{
+    width: 250px;
+    background-color: white;
+    border:2px solid #4F4F4F;
+    border-radius: 8px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+.text{
+    text-align: left;
+}
+#notas{
+    margin-top: 8px;
+}
+.btn-borrar{
+    width: 63px;
+    border: none;
+    font-weight: bold;
+    background-color: #E0E0E0;
+    padding: 5px;
+    border-radius: 10px;
+    color: #4F4F4F;
+}
+.btn-close-container{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
